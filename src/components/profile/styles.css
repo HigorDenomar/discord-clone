@@ -1,0 +1,52 @@
+#my-profile {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  bottom: 0;
+  width: 240px;
+  background-color: #2a2b2f;
+  height: 60px;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-between;
+  user-select: none;
+}
+
+#profile-content{
+  display: flex;
+  flex-direction: row;
+}
+
+#profile-content strong {
+  color: #eee;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+#profile-content p {
+  font-size: 12px;
+}
+
+#cfgs-content {
+  display: flex;
+  flex-direction: row;
+  width: 100px;
+  height: 100%;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.cfgs-items {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+
+.cfgs-items:hover {
+  background-color: #34373c;
+  cursor: pointer;
+}

@@ -1,38 +1,117 @@
-.App {
-  text-align: center;
+#app {
+  padding-top: 22px;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#side-bar {
   display: flex;
   flex-direction: column;
+  background-color: #303136;
+  min-width: 240px;
+  border-top-left-radius: 8px;
+}
+
+#main {
+  background-color: #363940;
+  width: 100%;
+}
+
+#content {
+  padding: 10px;
+}
+
+#top-bar-peoples {
+  padding: 10px;
+  min-height: 40px;
+}
+
+#top-bar-content {
+  display: flex;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 10px;
+  padding-left: 20px;
+  min-height: 49px;
 }
 
-.App-link {
-  color: #61dafb;
+#add-friend {
+  background-color: #41b77e;
+  color: #FFF;
+  padding: 3px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.top-bar-items {
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 2px;
+  padding-left: 6px;
+  padding-right: 6px;
+  border-radius: 3px;
+  cursor: pointer;
+  user-select: none;
+
+  transition: all 0.1s;
+}
+
+.top-bar-items:hover {
+  background-color: #3c4147;;
+  color: #bdb8b1;
+}
+
+#search {
+  background-color: #212226;
+  border-radius: 5px;
+  padding: 7px;
+  font-size: 13px;
+  user-select: none;
+
+}
+
+#search:hover {
+  cursor: pointer;
+}
+
+#people-conteiner {
+  padding: 10px;
+}
+
+.items {
+  border-radius: 4px;
+  padding: 10px;
+  user-select: none;
+  font-size: 15px;
+}
+
+.items:hover {
+  background-color: #34373c;
+  color: #b2b2b2;
+  cursor: pointer;
+}
+
+#direct-msg {
+  padding: 10px;
+  padding-top: 20px;
+  font-size: 12px;
+  user-select: none;
+}
+
+#direct-msg:hover {
+  color: #eee;
+}
+
+hr {
+  border: 0.5px solid #212226;
+}
+
+.hr-vertical {
+  height: 25px;
+  border: 0.8px solid #3c4147;
+  box-sizing: border-box;
+  margin-left: 20px;
 }

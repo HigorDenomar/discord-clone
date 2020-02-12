@@ -1,0 +1,88 @@
+#bar-groups {
+  display: flex;
+  flex-direction: column;
+  min-width: 72px;
+  align-items: center;
+  user-select: none;
+}
+
+#group {
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  border-radius: 33%;
+  height: 48px;
+  width: 48px;
+  margin-top: 4px;
+  background-color: #7288da;
+  transition: 0.2s;
+  cursor: pointer;
+
+  margin-bottom: 10px;
+}
+
+#logo {
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  border-radius: 33%;
+  height: 30px;
+  margin-top: 8px;
+  width: 48px;
+  transition: 0.2s;
+  cursor: pointer;
+  object-fit: cover;
+  object-position: center;
+}
+
+#mark-white {
+  background-color: #eee;
+  height: 40px;
+  width: 4px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  position: absolute;
+  top: 29px;
+  left: 0;
+  cursor: e-resize;
+}
+
+
+.group-fix {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  border-radius: 50%;
+  height: 48px;
+  width: 48px;
+  background-color: #303136;
+  transition: 0.2s;
+  cursor: pointer;
+  margin-top: 8px;
+
+}
+
+.group-fix:hover {
+  border-radius: 33%;
+  transition: 0.2s;
+
+  
+}
+.group-fix:hover .mark-white-fix {
+  width: 4px;
+  transition: all linear 0.15s;
+  background-color: #eee;
+}
+
+.mark-white-fix {
+  background-color: #eeeeee00;
+  height: 20px;
+  width: 0px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  transition: all linear 0.1s;
+  position: absolute;
+  margin-top: 14px;
+  left: 0;
+}

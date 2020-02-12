@@ -1,0 +1,50 @@
+.group {
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  border-radius: 50%;
+  height: 48px;
+  width: 48px;
+  background-color: #00000000;
+  transition: 0.2s;
+  cursor: pointer;
+  margin-top: 8px;
+
+}
+
+.group:hover, .logo:hover {
+  border-radius: 33%;
+  transition: 0.2s;
+
+  
+}
+.group:hover .mark-white {
+  width: 4px;
+  transition: all linear 0.15s;
+  background-color: #eee;
+}
+
+.mark-white {
+  background-color: #eeeeee00;
+  height: 20px;
+  width: 0px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  transition: all linear 0.1s;
+  position: absolute;
+  margin-top: 14px;
+  left: 0;
+}
+
+.logo {
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+  transition: 0.2s;
+  cursor: pointer;
+  object-fit: cover;
+  object-position: center;
+}
