@@ -13,24 +13,24 @@ Discord Clone
 
 
 <p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#telescope-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#books-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-instalando-o-projeto">Instalação</a>
 </p>
 
-## Tecnologias
+## :telescope: Tecnologias
 
 Para o desenvolvimento deste projeto, foram utilizadas as seguintes tecnologias:
 
 - [React](https://reactjs.org)
 - [Electron](https://www.electronjs.org/)
 
-## Projeto
+## :books: Projeto
 
-Este é um projeto de estudo das tecnologias citadas acima, onde é recriado a interface do [Discord](https://discordapp.com/) (💻 desktop).
+Este é um projeto de estudo das tecnologias citadas acima, onde é recriado a interface do [Discord](https://discordapp.com/) (desktop).
 
 ---
-## Instalando o projeto
+## 💻 Instalando o projeto
 ```
 npm install
 ```
