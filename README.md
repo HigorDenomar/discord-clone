@@ -12,13 +12,31 @@ Discord Clone
 <br/>&nbsp;
 
 
-> **Install project:**
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-instalando-o-projeto">Instalação</a>
+</p>
+
+## Tecnologias
+
+Para o desenvolvimento deste projeto, foram utilizadas as seguintes tecnologias:
+
+- [React](https://reactjs.org)
+- [Electron](https://www.electronjs.org/)
+
+## Projeto
+
+Este é um projeto de estudo das tecnologias citadas acima, onde é recriado a interface do [Discord](https://discordapp.com/) (💻 desktop).
+
+---
+## Instalando o projeto
 ```
 npm install
 ```
 <br/>
 
-> **Run Project:**
+Depois execute o projeto com os seguintes comandos:
 
 ```
 npm start 
