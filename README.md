@@ -15,7 +15,8 @@ Discord Clone
 <p align="center">
   <a href="#telescope-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#books-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-instalando-o-projeto">Instalação</a>
+  <a href="#-instalando-o-projeto">Instalação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-como-contribuir">Como contribuir</a>
 </p>
 
 <br/>
@@ -49,3 +50,10 @@ yarn start
 
 yarn electron
 ```
+
+## 🤝🏼 Como contribuir
+
+- Faça um fork desse repositório;
+- Crie uma branch com a sua adição: `git checkout -b minha-feature`;
+- Faça commit das suas alterações: `git commit -m 'feat: Minha alteração'`;
+- Faça push para a sua branch: `git push origin minha-feature`.
