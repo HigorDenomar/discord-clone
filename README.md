@@ -18,6 +18,12 @@ Discord Clone
   <a href="#-instalando-o-projeto">Instalação</a>
 </p>
 
+<br/>
+
+<div align="center">
+  <img src="src/assets/README/screen-discord-clone.png" />
+</div>
+
 ## :telescope: Tecnologias
 
 Para o desenvolvimento deste projeto, foram utilizadas as seguintes tecnologias:
@@ -39,7 +45,7 @@ npm install
 Depois execute o projeto com os seguintes comandos:
 
 ```
-npm start 
+yarn start 
 
-npm run electron
+yarn electron
 ```
