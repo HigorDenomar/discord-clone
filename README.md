@@ -7,7 +7,7 @@ Discord Clone
 </h3>
 
 <div align="center">
-  Projeto realizado durante a Semana OmniStack #10
+  Recriando a interface do Discord (Projeto de estudo de Electro e React)
 </div>
 <br/>&nbsp;
 
